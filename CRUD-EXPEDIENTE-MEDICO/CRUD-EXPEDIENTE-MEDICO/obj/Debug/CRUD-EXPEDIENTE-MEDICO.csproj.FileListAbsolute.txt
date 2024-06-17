@@ -1,0 +1,10 @@
+C:\Users\Edgardo Caceres\Documents\GitHub\CRUD-Expediente-Medico\CRUD-EXPEDIENTE-MEDICO\CRUD-EXPEDIENTE-MEDICO\bin\Debug\CRUD-EXPEDIENTE-MEDICO.exe.config
+C:\Users\Edgardo Caceres\Documents\GitHub\CRUD-Expediente-Medico\CRUD-EXPEDIENTE-MEDICO\CRUD-EXPEDIENTE-MEDICO\bin\Debug\CRUD-EXPEDIENTE-MEDICO.exe
+C:\Users\Edgardo Caceres\Documents\GitHub\CRUD-Expediente-Medico\CRUD-EXPEDIENTE-MEDICO\CRUD-EXPEDIENTE-MEDICO\bin\Debug\CRUD-EXPEDIENTE-MEDICO.pdb
+C:\Users\Edgardo Caceres\Documents\GitHub\CRUD-Expediente-Medico\CRUD-EXPEDIENTE-MEDICO\CRUD-EXPEDIENTE-MEDICO\obj\Debug\CRUD-EXPEDIENTE-MEDICO.csproj.AssemblyReference.cache
+C:\Users\Edgardo Caceres\Documents\GitHub\CRUD-Expediente-Medico\CRUD-EXPEDIENTE-MEDICO\CRUD-EXPEDIENTE-MEDICO\obj\Debug\CRUD_EXPEDIENTE_MEDICO.Form1.resources
+C:\Users\Edgardo Caceres\Documents\GitHub\CRUD-Expediente-Medico\CRUD-EXPEDIENTE-MEDICO\CRUD-EXPEDIENTE-MEDICO\obj\Debug\CRUD_EXPEDIENTE_MEDICO.Properties.Resources.resources
+C:\Users\Edgardo Caceres\Documents\GitHub\CRUD-Expediente-Medico\CRUD-EXPEDIENTE-MEDICO\CRUD-EXPEDIENTE-MEDICO\obj\Debug\CRUD-EXPEDIENTE-MEDICO.csproj.GenerateResource.cache
+C:\Users\Edgardo Caceres\Documents\GitHub\CRUD-Expediente-Medico\CRUD-EXPEDIENTE-MEDICO\CRUD-EXPEDIENTE-MEDICO\obj\Debug\CRUD-EXPEDIENTE-MEDICO.csproj.CoreCompileInputs.cache
+C:\Users\Edgardo Caceres\Documents\GitHub\CRUD-Expediente-Medico\CRUD-EXPEDIENTE-MEDICO\CRUD-EXPEDIENTE-MEDICO\obj\Debug\CRUD-EXPEDIENTE-MEDICO.exe
+C:\Users\Edgardo Caceres\Documents\GitHub\CRUD-Expediente-Medico\CRUD-EXPEDIENTE-MEDICO\CRUD-EXPEDIENTE-MEDICO\obj\Debug\CRUD-EXPEDIENTE-MEDICO.pdb
