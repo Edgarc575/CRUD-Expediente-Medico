@@ -34,6 +34,21 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
             this.dgvinfo = new System.Windows.Forms.DataGridView();
+            this.dgvidentidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvnombres = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvapellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvtelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvtelefono2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvemail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvfechanac = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvsexo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvestado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvdepartamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvciudad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvdireccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvprocedencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvocupacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvfechaex = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnlimpiar = new System.Windows.Forms.Button();
             this.btneliminar = new System.Windows.Forms.Button();
@@ -72,21 +87,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.dgvidentidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvnombres = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvapellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvtelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvtelefono2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvemail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvfechanac = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvsexo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvestado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvdepartamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvciudad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvdireccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvprocedencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvocupacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvfechaex = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtbuscar = new System.Windows.Forms.TextBox();
+            this.btnbuscar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -171,6 +174,81 @@
             this.dgvinfo.TabIndex = 5;
             this.dgvinfo.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvinfo_CellMouseClick);
             // 
+            // dgvidentidad
+            // 
+            this.dgvidentidad.HeaderText = "Identidad";
+            this.dgvidentidad.Name = "dgvidentidad";
+            // 
+            // dgvnombres
+            // 
+            this.dgvnombres.HeaderText = "Nombres";
+            this.dgvnombres.Name = "dgvnombres";
+            // 
+            // dgvapellidos
+            // 
+            this.dgvapellidos.HeaderText = "Apellidos";
+            this.dgvapellidos.Name = "dgvapellidos";
+            // 
+            // dgvtelefono
+            // 
+            this.dgvtelefono.HeaderText = "Telefono";
+            this.dgvtelefono.Name = "dgvtelefono";
+            // 
+            // dgvtelefono2
+            // 
+            this.dgvtelefono2.HeaderText = "Telefono";
+            this.dgvtelefono2.Name = "dgvtelefono2";
+            // 
+            // dgvemail
+            // 
+            this.dgvemail.HeaderText = "Email";
+            this.dgvemail.Name = "dgvemail";
+            // 
+            // dgvfechanac
+            // 
+            this.dgvfechanac.HeaderText = "Fecha nacimiento";
+            this.dgvfechanac.Name = "dgvfechanac";
+            // 
+            // dgvsexo
+            // 
+            this.dgvsexo.HeaderText = "Sexo";
+            this.dgvsexo.Name = "dgvsexo";
+            // 
+            // dgvestado
+            // 
+            this.dgvestado.HeaderText = "Estado Civil";
+            this.dgvestado.Name = "dgvestado";
+            // 
+            // dgvdepartamento
+            // 
+            this.dgvdepartamento.HeaderText = "Departamento";
+            this.dgvdepartamento.Name = "dgvdepartamento";
+            // 
+            // dgvciudad
+            // 
+            this.dgvciudad.HeaderText = "Ciudad";
+            this.dgvciudad.Name = "dgvciudad";
+            // 
+            // dgvdireccion
+            // 
+            this.dgvdireccion.HeaderText = "Direccion";
+            this.dgvdireccion.Name = "dgvdireccion";
+            // 
+            // dgvprocedencia
+            // 
+            this.dgvprocedencia.HeaderText = "Procedencia";
+            this.dgvprocedencia.Name = "dgvprocedencia";
+            // 
+            // dgvocupacion
+            // 
+            this.dgvocupacion.HeaderText = "Ocupacion";
+            this.dgvocupacion.Name = "dgvocupacion";
+            // 
+            // dgvfechaex
+            // 
+            this.dgvfechaex.HeaderText = "Fecha Expediente";
+            this.dgvfechaex.Name = "dgvfechaex";
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ButtonFace;
@@ -226,6 +304,9 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel2.Controls.Add(this.btnbuscar);
+            this.panel2.Controls.Add(this.txtbuscar);
+            this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.txtciudad);
             this.panel2.Controls.Add(this.dtpfechaexpediente);
             this.panel2.Controls.Add(this.txtocupacion);
@@ -584,80 +665,32 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Identidad:";
             // 
-            // dgvidentidad
+            // label8
             // 
-            this.dgvidentidad.HeaderText = "Identidad";
-            this.dgvidentidad.Name = "dgvidentidad";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(452, 259);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(70, 20);
+            this.label8.TabIndex = 36;
+            this.label8.Text = "Buscar:";
             // 
-            // dgvnombres
+            // txtbuscar
             // 
-            this.dgvnombres.HeaderText = "Nombres";
-            this.dgvnombres.Name = "dgvnombres";
+            this.txtbuscar.Location = new System.Drawing.Point(528, 261);
+            this.txtbuscar.Name = "txtbuscar";
+            this.txtbuscar.Size = new System.Drawing.Size(152, 20);
+            this.txtbuscar.TabIndex = 37;
             // 
-            // dgvapellidos
+            // btnbuscar
             // 
-            this.dgvapellidos.HeaderText = "Apellidos";
-            this.dgvapellidos.Name = "dgvapellidos";
-            // 
-            // dgvtelefono
-            // 
-            this.dgvtelefono.HeaderText = "Telefono";
-            this.dgvtelefono.Name = "dgvtelefono";
-            // 
-            // dgvtelefono2
-            // 
-            this.dgvtelefono2.HeaderText = "Telefono";
-            this.dgvtelefono2.Name = "dgvtelefono2";
-            // 
-            // dgvemail
-            // 
-            this.dgvemail.HeaderText = "Email";
-            this.dgvemail.Name = "dgvemail";
-            // 
-            // dgvfechanac
-            // 
-            this.dgvfechanac.HeaderText = "Fecha nacimiento";
-            this.dgvfechanac.Name = "dgvfechanac";
-            // 
-            // dgvsexo
-            // 
-            this.dgvsexo.HeaderText = "Sexo";
-            this.dgvsexo.Name = "dgvsexo";
-            // 
-            // dgvestado
-            // 
-            this.dgvestado.HeaderText = "Estado Civil";
-            this.dgvestado.Name = "dgvestado";
-            // 
-            // dgvdepartamento
-            // 
-            this.dgvdepartamento.HeaderText = "Departamento";
-            this.dgvdepartamento.Name = "dgvdepartamento";
-            // 
-            // dgvciudad
-            // 
-            this.dgvciudad.HeaderText = "Ciudad";
-            this.dgvciudad.Name = "dgvciudad";
-            // 
-            // dgvdireccion
-            // 
-            this.dgvdireccion.HeaderText = "Direccion";
-            this.dgvdireccion.Name = "dgvdireccion";
-            // 
-            // dgvprocedencia
-            // 
-            this.dgvprocedencia.HeaderText = "Procedencia";
-            this.dgvprocedencia.Name = "dgvprocedencia";
-            // 
-            // dgvocupacion
-            // 
-            this.dgvocupacion.HeaderText = "Ocupacion";
-            this.dgvocupacion.Name = "dgvocupacion";
-            // 
-            // dgvfechaex
-            // 
-            this.dgvfechaex.HeaderText = "Fecha Expediente";
-            this.dgvfechaex.Name = "dgvfechaex";
+            this.btnbuscar.Location = new System.Drawing.Point(686, 254);
+            this.btnbuscar.Name = "btnbuscar";
+            this.btnbuscar.Size = new System.Drawing.Size(82, 33);
+            this.btnbuscar.TabIndex = 38;
+            this.btnbuscar.Text = "Buscar";
+            this.btnbuscar.UseVisualStyleBackColor = true;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // Form1
             // 
@@ -744,6 +777,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvprocedencia;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvocupacion;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvfechaex;
+        private System.Windows.Forms.Button btnbuscar;
+        private System.Windows.Forms.TextBox txtbuscar;
+        private System.Windows.Forms.Label label8;
     }
 }
 

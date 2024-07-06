@@ -509,5 +509,48 @@ namespace CRUD_EXPEDIENTE_MEDICO
 
             }
         }
+
+        //Boton buscar datos
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
+            string datobuscar = txtbuscar.Text.ToLower();
+
+            if (!string.IsNullOrWhiteSpace(datobuscar))
+            {
+                dgvinfo.ClearSelection();
+
+                foreach (DataGridViewRow fila in dgvinfo.Rows)
+                {
+                    bool encontrado = false;
+
+                    for (int i = 0; i < fila.Cells.Count; i++)
+                    {
+                        if (fila.Cells[i].Value != null && fila.Cells[i].Value.ToString().ToLower().Contains(datobuscar))
+                        {
+                            encontrado = true;
+                            break;
+                        }
+                    }
+
+                    if (encontrado)
+                    {
+                      
+                        fila.Selected = true;
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Porfavor, ingrese la identidad del paciente!", "Expediente Medico", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            
+        }
+
+        
+        private void btnrefrescar_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
